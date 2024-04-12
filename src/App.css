@@ -1,0 +1,9 @@
+[type="number"]::after {
+  color: #f00;
+}
+/* Hide the default increment and decrement arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
